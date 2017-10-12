@@ -1,0 +1,15 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "files.eol": "\n",
+  "eslint.validate": [
+    "javascript",
+    {
+      "language": "html",
+      "autoFix": true
+    }
+  ],
+  "files.associations": {
+    "*.vue": "html"
+  },
+  "eslint.enable": true
+}
