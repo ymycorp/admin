@@ -1,4 +1,5 @@
 import Vue from 'vue';
+import BootstrapVue from 'bootstrap-vue';
 import Vuelidate from 'vuelidate';
 import axios from 'axios';
 import moment from 'moment';
@@ -10,6 +11,7 @@ import App from './App';
 
 Vue.config.productionTip = false;
 
+Vue.use(BootstrapVue);
 Vue.use(Vuelidate);
 
 if (process.env.NODE_ENV === 'development') {
